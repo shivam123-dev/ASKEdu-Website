@@ -9,6 +9,13 @@
     scroll-behavior: smooth;
 }
 
+#preloader{
+    background: url('preloader.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+
 ::selection{
     background-color: #f5a425;
 }
