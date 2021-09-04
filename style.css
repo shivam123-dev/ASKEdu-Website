@@ -24,6 +24,21 @@ span, .nav-link a:hover {
     color: #f5a425 !important;
 }
 
+.d-flex input[type=search]{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.d-flex button{
+    outline: none;
+    border: none;
+    background: black;
+}
+
+.d-flex button:hover{
+    background: rgba(0, 0, 0, 0.76);
+}
+
+
 #home {
     height: 90vh;
     background-color: rgba(22, 34, 57, 0.95);
@@ -63,6 +78,7 @@ span, .nav-link a:hover {
     max-height: 90vh;
     object-fit: cover;
 }
+
 
 #home .content{
     position: relative;
