@@ -66,8 +66,6 @@ span, .nav-link a:hover {
 .img {
     background-size: cover;
     background-color: rgba(22, 34, 57, 0.95);
-    background-size: cover;
-    opacity: 0.1;
     background-attachment: scroll;
     z-index: 1;
 }
@@ -108,6 +106,7 @@ span, .nav-link a:hover {
 #home .submit-button{
     position: relative;
     left: -46px;
+    bottom: -264px;
 }
 
 #home .submit-button a{
