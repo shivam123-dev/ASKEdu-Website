@@ -41,8 +41,11 @@ span, .nav-link a:hover {
 
 
 #home {
-    height: 90vh;
-    background-color: rgba(22, 34, 57, 0.95);
+    min-height: 90vh;
+    background: url(https://images.pexels.com/photos/3826676/pexels-photo-3826676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .content{
@@ -63,21 +66,6 @@ span, .nav-link a:hover {
     left: -3%;
     font-size: 3.1rem;
 }
-
-.img {
-    background-size: cover;
-    background-color: rgba(22, 34, 57, 0.95);
-    background-attachment: scroll;
-    z-index: 1;
-}
-
-.img img{
-    min-width: 100%;
-    min-height: 100%;
-    max-height: 90vh;
-    object-fit: cover;
-}
-
 
 #home .content{
     position: relative;
@@ -102,6 +90,7 @@ span, .nav-link a:hover {
     cursor: pointer;
     padding: 12px;
     font-weight: 600;
+    border-radius: 34px;
 }
 
 #home .submit-button{
@@ -490,7 +479,6 @@ span, .nav-link a:hover {
 	.contact-in:nth-child(3) {
 		flex: 100%;
 	}
-
 }
 
 @media only screen and (max-width:360px) {
