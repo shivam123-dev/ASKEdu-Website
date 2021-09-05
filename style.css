@@ -31,11 +31,12 @@ span, .nav-link a:hover {
 .d-flex button{
     outline: none;
     border: none;
-    background: black;
+    background: #f5a425;
 }
 
 .d-flex button:hover{
-    background: rgba(0, 0, 0, 0.76);
+    /* background: rgba(0, 0, 0, 0.76); */
+    background: #d89120; 
 }
 
 
